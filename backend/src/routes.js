@@ -7,7 +7,7 @@ import SessionController from './controllers/SessionController';
 
 const router = new Router();
 
-router.post('/session', SessionController.create);
+router.post('/sessions', SessionController.create);
 
 router.get('/ongs', OngController.index);
 router.post('/ongs', OngController.create);
